@@ -1,7 +1,6 @@
-# Manytasks
+# Many Tasks
 
-A col
-
+A collection of code examples.
 
 # Examples
 
@@ -9,8 +8,6 @@ A col
     python3 -m tasks.geltip_pick_and_place
 ```
 
-
 # TODO 
- - Consider more tasks
- - Define evaluation metrics
- - 
+ - [_] Specify tasks
+ - [_] Define evaluation metrics
