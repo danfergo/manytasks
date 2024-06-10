@@ -33,6 +33,7 @@ from components.geltip.geltip import GelTip
 
             <worldbody>
                 <bucket-particles name="bucket"/>
+
                  <body name="base-table" pos='-0.135 -0.48 0.018'>
                     <geom type='box' size='0.2 0.2 0.16'/>
                  </body>
@@ -40,10 +41,10 @@ from components.geltip.geltip import GelTip
                 <ur5e name="arm"> 
                    <robotiq-2f85 name="gripper" parent="ee_link"> 
                         <body pos="0.02 -0.017 0.053" xyaxes="0 -1 0 1 0 0" parent='right_tip'>
-                            <geltip name="geltip1" />
+                            <geltip name="geltip1" /> 
                         </body>
                         <body pos="-0.02 -0.017 0.053" xyaxes="0 1 0 -1 0 0" parent='left_tip'>
-                            <geltip name="geltip2" />
+                            <geltip name="geltip2" /> 
                         </body>
                     </robotiq-2f85> 
                 </ur5e>  
